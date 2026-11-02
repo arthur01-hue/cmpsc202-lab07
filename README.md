@@ -53,7 +53,7 @@ Consider the following simple example:
 **Question:** Draw the full recursion tree for `MaxValue(3)` using the example above. Label the remaining capacity at each node and indicate which item is chosen along each branch.
 
 *Your Answer (take a picture and upload it):*
-
+<img src="AlgoTree.jpg">
 
 ## Part 4: Recurrence Relation
 
