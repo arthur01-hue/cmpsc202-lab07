@@ -17,7 +17,7 @@ Suppose we're going hiking. We have items $1, \ldots, n$ that we could pack in m
 
 **Question:** Which of the three problem variations can be solved using the dynamic programming approaches we've studied in lecture? Explain your reasoning.
 
-*Your Answer:* I think all 3 problems could be solved using dynamic programming. 
+*Your Answer:* The second and third problem can be solved by dynamic programming. The first one cannot because the problem doesn't stay the same/lacks symmerty. At the beginning you are given a list, but as soon as you use one item your list changes. This can't work in dynamic programming. The other two keep the same list of items every time so it retains symmerty. The only thing that changes is the values, not the problem itself.
 
 ## Part 2: The Naive Recursive Algorithm
 
@@ -40,7 +40,7 @@ Function MaxValue(W):
 
 **Question:** Which of the three problem variations (1, 2, or 3) does this algorithm solve? How do you know? Explain your reasoning.
 
-*Your Answer:*
+*Your Answer:* Problem variation 2, because the function is built to find the max value. The first problem can't be solved by dynamic programming, and the third problem is looking for the max weight at minimum value. 
 
 ## Part 3: Recursion Tree
 
